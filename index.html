@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>signup-page</title>
+</head>
+<body>
+    <form class="col-12 col-md-5 col-lg-4 col-xl-4 card mt-5 mx-auto p-4">
+        <div class="text-center capitalise mb-3">
+            SIGN UP
+        </div>
+    <div>
+        <div class="">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="far fa-user"></i>
+                    </div>
+                </div>
+                <input name="FirstName" type="FirstName" class="form-control" placeholder="FirstName">
+            </div>
+            <p id="FirstName"></p>
+        </div>
+        <div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="far fa-user"></i>
+                    </div>
+                </div>
+                <input name="LastName" type="FirstName" class="form-control" placeholder="LastName">
+            </div>
+            <p id="LastName"></p>
+        </div>
+    </div>
+        <div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="far fa-user"></i>
+                    </div>
+                </div>
+                <input name="UserName" type="FirstName" class="form-control" placeholder="UserName">
+            </div>
+            <p id="UserName"></p>
+        </div>
+        <div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="far fa-user"></i>
+                    </div>
+                </div>
+                <input name="Email" type="Email" class="form-control" placeholder="Email">
+            </div>
+            <p id="Email"></p>
+        </div> 
+        <div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                </div>
+                <input name="Password" type="password" class="form-control" placeholder="Password">
+            </div>
+            <p id="Password"></p>
+        </div>      
+        <div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">
+                        <i class="fas fa-unlock"></i>
+                    </div>
+                </div>
+                <input name="ConfirmPassword" type="FirstName" class="form-control" placeholder="ConfirmPassword">
+            </div>
+            <p id="ConfirmPassword"></p>
+        </div> 
+            
+            <button class="btn btn block btn-primary text-danger mb-3">SignUp</button>
+            <div class="text-muted">Not a member? <a href="#">Create Account</a></div>
+    </form>
+
+    <script src="./node_modules/validatorjs/dist/validator.js"></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script> -->
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
